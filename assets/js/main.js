@@ -23,7 +23,7 @@
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
+    let selectEl = select(el, all) 
 
     if (selectEl) {
       if (all) {
